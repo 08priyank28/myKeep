@@ -1,0 +1,38 @@
+*{
+  margin: 0;
+  padding: 0;
+  /* box-sizing: border-box; */
+}
+html {
+  font-family: sans-serif;
+}
+
+body {
+  background: #ffffff;
+  width: 100%;
+}
+
+.app{
+  width: 100%;
+}
+
+.empty{
+  display: flex;
+  width: 50%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin : 100px auto;
+}
+
+.icon{
+  color: rgb(208, 204, 204);
+  
+}
+
+
+.empty__text > h1{
+  color: gray;
+  text-align: center;
+  font-weight: normal;
+}
